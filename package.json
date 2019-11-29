@@ -1,7 +1,7 @@
 {
   "name": "search-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Express server w/ PostgreQL, Redis, PM2",
   "main": "index.js",
   "scripts": {
     "postinstall": "npx tsc",
@@ -11,6 +11,7 @@
   },
   "keywords": [],
   "author": "justisGipson <justis710@gmail.com> (justisgipson.com)",
+  "repository": "https://github.com/justisGipson/search-api",
   "license": "ISC",
   "dependencies": {
     "@types/compression": "^1.0.1",
