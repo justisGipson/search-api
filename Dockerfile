@@ -14,4 +14,3 @@ COPY . .
 EXPOSE 8080
 # Run CMD
 CMD ["node", "server.ts"]
-
