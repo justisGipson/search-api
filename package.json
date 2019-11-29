@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest --coverage --verbose",
     "dev": "tsc-watch --onSuccess \"node ./dist/server.js\"",
-    "start": "npx pm2 start pm2.yaml"
+    "start": "npx pm2 start pm2.yaml",
+    "postinstall": "npx tsc"
   },
   "keywords": [],
   "author": "justisGipson <justis710@gmail.com> (justisgipson.com)",
