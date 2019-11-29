@@ -1,4 +1,10 @@
 apps:
-	- script: ./dist/server.js
-		instances: max
-		exec_mode: cluster
+  - script   : ./dist/server.js
+    name     : 'search-api'
+    instances: max
+    exec_mode: cluster
+    watch: true
+    env    :
+      NODE_ENV: development
+    env_production:
+      NODE_ENV: production

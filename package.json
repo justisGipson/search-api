@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage --verbose",
+    "postinstall": "npx tsc",
     "dev": "tsc-watch --onSuccess \"node ./dist/server.js\"",
     "start": "npx pm2 start pm2.yaml",
-    "postinstall": "npx tsc"
+    "test": "jest --coverage --verbose"
   },
   "keywords": [],
   "author": "justisGipson <justis710@gmail.com> (justisgipson.com)",
