@@ -1,5 +1,5 @@
 # Build Image
-FROM node:12
+FROM node:12.1.0
 # Create app directory
 WORKDIR /search-api/src/server
 # Install app dependencies
